@@ -18,3 +18,4 @@ gem "rails_12factor", group: [:production]
 gem "bootstrap-sass", "~> 3.3.1"
 gem "font-awesome-rails"
 gem 'gravatar-ultimate'
+gem 'puma'
