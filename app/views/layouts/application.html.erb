@@ -5,8 +5,28 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
+  <!-- ******HEADER****** -->
+  <header class="header">
+      <div class="container">
+          <%= image_tag(Gravatar.new("ing.miguelcasas@gmail.com").image_url+"?s=160", class:"profile-image img-responsive pull-left img-circle")  %>
+          <div class="profile-content pull-left">
+              <h1 class="name">Miguel Casas</h1>
+              <h2 class="desc">Web App Developer</h2>
+              <ul class="social list-inline">
+                  <li><a href="https://twitter.com/neneriostb" tarjet="_blank"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://plus.google.com/+miguelandrescasasperea/posts"><i class="fa fa-google-plus" tarjet="_blank"></i></a></li>
+                 <!--  <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
+                  <li><a href="https://github.com/mike-casas" target="_blank"><i class="fa fa-github-alt"></i></a></li>
+                  <li class="last-item"><a href="https://www.facebook.com/neneriostb" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              </ul>
+          </div><!--//profile-->
+          <a class="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/" target="_blank"><i class="fa fa-paper-plane"></i> Contacto</a>
+      </div><!--//container-->
+  </header><!--//header-->
 
 <%= yield %>
 
