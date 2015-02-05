@@ -14,15 +14,16 @@
 //= require jquery_ujs
 //= require mustache.min
 //= require jquery-rss
-
 //= require github-activity-0.1.0.min
 //= require turbolinks
+//= require jquery.validate
+//= require jquery.validate.additional-methods
 //= require bootstrap-sprockets
+//= require amaran
 //= require_tree .
 
 
 $(document).on("page:change", function(){
-
 
 
     /*======= Skillset *=======*/

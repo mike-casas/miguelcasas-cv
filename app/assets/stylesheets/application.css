@@ -13,6 +13,8 @@
  *= require font-awesome
  *= require github-activity-0.1.0.min
  *= require octicons.min
+ *= require amaran
+ *= require animate
  *= require_tree .
  *= require_self
  */
