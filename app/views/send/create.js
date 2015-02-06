@@ -1,3 +1,5 @@
+
+window.location.href = '<%= root_path %>'
 $.amaran({
     content:{
         bgcolor:'#3E97FF',
@@ -5,10 +7,8 @@ $.amaran({
         message:'<strong>Mensaje Enviado</strong>'
        },
     theme:'colorful',
-    position:'top right',
+    position:'top',
     closeButton:true,
-    cssanimationIn: 'bounceInLeft',
-    cssanimationOut: 'bounceOutUp',
+    cssanimationIn: 'bounceIn',
+    delay:10000
 });
-
-window.location.href = '<%= root_path %>'
