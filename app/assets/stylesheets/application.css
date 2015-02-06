@@ -19,6 +19,21 @@
  *= require_self
  */
 
+
+ /* ===========modal bg============*/
+
+   .bg_modal{
+      background: rgba(0, 0, 0, 0.6);
+   }
+
+   .bg_modal label {
+      color : white ;
+      font-weight: bold;
+   }
+   .bg_modal input {
+      text-transform: uppercase;
+   }
+
  /* ======= Base ======= */
  #btn-header a{
 
